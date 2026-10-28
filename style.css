@@ -30,3 +30,20 @@ input, textarea { width:100%; padding:12px; border:1px solid #c9d5df; border-rad
 input:focus, textarea:focus { outline:2px solid #80cbc4; border-color:#8b5e3c; }
 footer { background:var(--navy); color:#d9e8f5; padding:14px 0; margin-top:20px; font-size:.9rem; }
 @media (max-width:520px) { .site-header { padding-top:26px; } nav { gap:2px; } nav a { padding:10px; font-size:.93rem; } .hero { border-radius:14px; } }
+
+.institution-header {
+  background: #6B4423;
+  color: #fff;
+  text-align: center;
+  padding: 18px 12px;
+}
+
+.institution-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.institution-header p {
+  margin: 6px 0 0;
+  font-size: 1rem;
+}
